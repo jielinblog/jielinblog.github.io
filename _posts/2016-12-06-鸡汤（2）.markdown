@@ -22,14 +22,14 @@ date:   2016-12-6
 后来在COMMIT时，有个项目是修改一个RF Transceiver芯片， 使之从WCDMA到TD-SCDMA。里面有个基带模拟滤波器。我以前从没接触过滤波器，就花了两个月时间，看了三本英文原版书，第一本有900多页，和N多paper， 一下子对整个滤波器领域，开关电容的，GmC的，Active RC的都懂了。提出修改方案时， 由于我运放根基扎实，看文章时对于滤波器信号流很容易懂，所以很短时间就能一个人提出芯片电路原理分析和修改方案。最后报告写出来（也是我的又一个得意之作），送给TI. TI那边对这边一下子肃然起敬，Conference call时， 他们首先说这份报告是“Great job!”，我英文没听懂，Julian对我夸大拇指，说“他们对你评价很高呢”。后来去Dallas， TI那边对我们很尊敬， 我做报告时，很多人来听。总之，现在知道，凡事情，基础很重要，基础扎实学其他的很容易切入， 并且越学越快。 
 我是02年 11月去的COMMIT，当时面试我的也是我现在公司老板Julian。 Julian问我：你觉得SOC (system on chip)设计的环节在哪儿？ 我说：应该是模拟电路吧，这个比较难一些。Julian说错了，是系统。我当时很不以为然， 觉得模拟电路工程师应该花精力在分析和设计电路上。 Julian后来自己run了现在这公司On-Bright，把我也带来， 同时也从TI拉了两个，有一个是方博士。我呢，给Julian推荐了朱博士。这一两年，我和朱博士对方博士佩服得五体投地。方博士是TI华人里面的顶级高手， 做产品能力超强。On-Bright现在做电源芯片，我和朱博士做了近两年，知道了系统的重要性。芯片设计最终一定要走向系统， 这个是芯片设计的第四重境界。电路如同砖瓦，系统如同大厦。芯片设计工程师一定要从系统角度考虑问题，否则就是只见树木，不见森林。电源芯片中，放大器，比较器都是最最普通的， 其难点在于对系统的透彻理解。在On-Bright，我真正见识了做产品，从定义到设计，再到debug， 芯片测试和系统测试，最后到RTP (release to production)。 Julian把TI的先进产品开发流程和项目管理方式引入On-Bright，我和朱博士算是大开眼界，也知道了做产品的艰辛。
 
-*Analog Integrated Circuit Design, David Johns, Ken Martin, University of Toronto, John Wiley, Inc. 
+* Analog Integrated Circuit Design, David Johns, Ken Martin, University of Toronto, John Wiley, Inc. 
 A must read classic book on CMOS. Good circuit cook book and circuit theory. The part of Switched-capacitor PLL parts are very good and you must know it.
 
-*Microelectronic Circuits (the latest edition is 4th). Adel S. Sedra, Kenneth C. Smith, Oxford, 1998 (University of Toronto). 
+* Microelectronic Circuits (the latest edition is 4th). Adel S. Sedra, Kenneth C. Smith, Oxford, 1998 (University of Toronto). 
 A very good book! It is for undergraduates, easy to understand and the summery is very good and equation is very insightful. A must-read book before interview.
 
-*CMOS Analog Circuit Design, Phillip E. Allen and Douglas R. Holberg, Published in 1987. 
+* CMOS Analog Circuit Design, Phillip E. Allen and Douglas R. Holberg, Published in 1987. 
 A little older but still worth to read. (It has a later edition (2002 ?, but I have not found time to read yet).
 
-*Design of analog CMOS Integrated Circuits, Behzad Razavi, McGraw-Hill, 2001. 
+* Design of analog CMOS Integrated Circuits, Behzad Razavi, McGraw-Hill, 2001. 
 A textbook used by many schools. It helps you understanding lot of the circuits, but too simple to use in real design. I should say it is a very good theory book. Not ENGINEER book. Anyway IT ALL BEGINS FROM MAXWELL'S EQUATIONS, RIGHT?
