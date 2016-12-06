@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Example Post Formatting"
+title:  "Example Blog Formatting"
 date:   2014-12-15
 ---
 
